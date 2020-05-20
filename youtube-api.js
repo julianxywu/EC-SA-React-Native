@@ -1,10 +1,8 @@
 import axios from 'axios';
-import dotenv from 'dotenv';
 
-dotenv.config({ silent: true });
 
 const API_URL = 'https://www.googleapis.com/youtube/v3/search';
-const API_KEY = process.env.API_KEY;
+const API_KEY = 'AIzaSyCSSwue79jR52M4D6WdlbuWc1bb95GS5wI';
 
 const youtubeSearch = (term) => {
   const params = {
